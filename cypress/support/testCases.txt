@@ -1,0 +1,48 @@
+1. TC01 – User submits form filling out the mandatory fields only
+
+Steps:
+Open /support page
+Fill required fields with valid data:
+Problem Description
+Email
+Click Submit button
+
+Expected Result:
+Form is submitted successfully
+Success message / confirmation is displayed
+
+
+TC02 – Required field validation (Problem Description)
+
+Steps:
+Open /support page
+Leave Problem Description empty
+Fill other required fields
+Click Submit button 
+
+Expected Result:
+Validation error shown for Problem Description
+Form is NOT submitted
+
+TC03 – Email field format validation
+
+Steps:
+Open /support page
+Enter invalid email
+Fill other required fields
+Click Submit button
+
+Expected Result:
+Email field validation error is shown
+Form is NOT submitted
+
+TC04 – Form is submitted with all of the fields filled in
+
+Steps:
+Open /support page
+Fill out all of the fields in the form
+
+Click Submit
+Expected Result:
+Form submits successfully
+
